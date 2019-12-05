@@ -38,7 +38,7 @@ function quitar_tildes($cadena) {
     $cadena = strtr($cadena, utf8_decode($originales), $modificadas);
     return utf8_encode($cadena);
     }
-
+   
 
 ?>
 
